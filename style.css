@@ -24,6 +24,7 @@ body{
 background-image: url("./img/backgroud.png");
 background-size:cover;
 overflow: hidden;
+background-position: right;
 }
 .title{
   font-size:36rem;
