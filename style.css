@@ -1,13 +1,13 @@
 /* Khi tỉ lệ màn hình lớn hơn containers */
-@media (min-aspect-ratio: 1940/1050) and (min-width: 768px) {
+@media (min-aspect-ratio: 1920/1050) and (min-width: 768px) {
   html {
     font-size: 0.09523809524vh;
   }
 }
 /* Khi tỉ lệ màn hình nhỏ hơn hơn tỉ lệ container */
-@media (max-aspect-ratio: 1940/1050) and (min-width: 768px) {
+@media (max-aspect-ratio: 1920/1050) and (min-width: 768px) {
   html {
-    font-size: 0.05154639175vw;
+    font-size: 0,05208333333vw;
   }
 }
 /* MÀN TABLET */
@@ -35,4 +35,132 @@
   html {
     font-size: 0.2083333333vw;
   }
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  width: 1920rem;
+  height: 1050rem;
+  display: grid;
+  grid-template-columns: 670rem 1250rem;
+  background-color: white;
+}
+.content{
+  padding-top:60rem;
+padding-left:48rem;
+border-bottom: 0.2rem solid solid rgba(0, 0, 0, 0.2);
+border-top: 0.2rem solid solid rgba(0, 0, 0, 0.2);
+border-left: 0.2rem solid solid rgba(0, 0, 0, 0.2);
+}
+.department-info-container{
+  padding-top: 72rem;
+background-image: url("./img/so-do-phong.png");
+background-size:cover;
+overflow: hidden;
+}
+.title{
+  font-size:36rem;
+}
+.select-tower{
+  padding: 12rem 0;
+border-top:1px solid #3b3b3b;
+border-bottom:1px solid #3b3b3b;
+display: flex;
+align-items:center;
+width:574rem;
+}
+.tower{
+  display: flex;
+  align-items: center;
+}
+.footer-content{
+  width:574rem;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.apartment-location, .contact-infor{
+  display: flex;
+}
+.compass{
+  width:96rem;
+  height:96rem;
+}
+.footer-apartment{
+  display: flex;
+gap: 24rem; 
+height: 258rem;
+width: 1656rem;
+background-color: rgba(0, 0, 0, 0.2);
+padding: 24rem;
+}
+.icon-tower{
+  width:36rem;
+  height:36rem;
+}
+.select-tower p:nth-child(2), .select-tower p:nth-child(3){
+  padding:9rem 36rem 9rem 0;
+  border-right: 1px solid #3b3b3b;
+}
+.img-tower{
+  width: 334rem;
+height:588rem;
+border-radius:8rem;
+box-shadow: 5rem 5rem 5rem rgba(0, 0, 0, 0.2);
+margin-right:48rem;
+}
+.select-floor-tower{
+  display: flex;
+flex-direction: column; 
+align-items: center;
+}
+.img-footer{
+  width:168rem;
+height:48rem;
+}
+.footer-contact{
+  display: flex;
+justify-content: space-between;
+width: 313rem;
+}
+.img-arrow{
+  width:36rem;
+height:144rem;
+margin-top: 204rem;
+margin-right:240rem;
+}
+.img-apartment-location{
+  width:698rem;
+height:624rem;
+}
+.select-floor{
+  width:192rem;
+padding: 18rem 0;
+display:flex;
+flex-wrap: wrap;
+gap: 24rem;
+position: relative;
+border-top: 1rem solid #3b3b3b;
+border-bottom: 1rem solid #3b3b3b;
+}
+.text-apartment-information{
+  color:white;
+padding: 4rem 0;
+text-align: right;
+}
+.select-floor-title{
+  color: #3b3b3b;
+position: absolute;
+top: -11rem;
+left: 44rem;
+padding: 0 12rem;
+background-color: white;
+}
+.text-apartment-information p:first-child{
+  font-size: 24rem;
 }
