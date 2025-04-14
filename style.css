@@ -164,3 +164,88 @@ background-color: white;
 .text-apartment-information p:first-child{
   font-size: 24rem;
 }
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .container {
+    width: 768rem;
+    height: 1024rem;
+    grid-template-columns: 670rem 98rem;
+  }
+  .content {
+    padding-top: 48rem;
+  }
+  .footer-apartment {
+    height: 232rem;
+    padding: 11rem 24rem;
+  }
+  .img-arrow {
+    margin-right: 24rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 480rem;
+    height: 1066.66rem;
+    grid-template-columns: 384rem 96rem;
+  }
+  .content {
+    padding-left: 18rem;
+  }
+  .title {
+    font-size: 24rem;
+  }
+  .select-tower {
+    width: 348rem;
+  }
+  .icon-tower {
+    width: 36rem;
+    height: 36rem;
+  }
+  .select-tower p:nth-child(2) {
+    padding: 9rem 36rem 9rem 0;
+    border-right: 1px solid #3b3b3b;
+  }
+  .select-tower p:nth-child(3) {
+    padding: 9rem 36rem 9rem 0;
+    border-right: 1px solid #3b3b3b;
+  }
+  .tower {
+    flex-direction: column;
+  }
+  .img-tower {
+    width: 348rem;
+    height: 612rem;
+    margin-right: 0;
+  }
+  .select-floor-tower {
+    flex-directon: row;
+  }
+  .select-floor {
+    padding: 12rem 0;
+    width: 300rem;
+    gap: 30rem;
+    flex-wrap: nowrap;
+    margin-top: 0;
+  }
+  .select-floor-title {
+    left: 108rem;
+  }
+  .footer-content {
+    flex-direction: column;
+    width: 348rem;
+  }
+  .img-footer {
+    width: 120rem;
+    height: 36rem;
+  }
+  .footer-contact {
+    width: 294rem;
+    margin-top: 12rem;
+  }
+  .footer-apartment {
+    height: 274.66rem;
+    padding: 32.33rem 24rem;
+  }
+}

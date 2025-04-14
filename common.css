@@ -88,34 +88,46 @@
   font-size: 16rem;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .mt-tl-36 {
     margin-top: 36rem;
-  }  
+  }
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
+  .fs-16 {
+    font-size: 12rem;
+  }
   .mr-mb-12 {
     margin-right: 12rem;
   }
-  
+
   .mt-mb-18 {
     margin-top: 18rem;
   }
-  
+
   .mt-mb-24 {
     margin-top: 24rem;
   }
-  
+
   .mr-mb-24 {
     margin-right: 24rem;
   }
-  
+
   .mr-mb-36 {
     margin-right: 36rem;
   }
   .hidden-mb {
     display: none;
-  }  
+  }
+  .floor {
+    width: 36rem;
+    height: 36rem;
+    line-height: 36rem;
+  }
+  .arrow-mb {
+    width: 12rem;
+    height: 36rem;
+    display: block;
+  }
 }
-
